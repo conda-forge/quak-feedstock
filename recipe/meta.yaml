@@ -1,5 +1,5 @@
 {% set name = "quak" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/quak-{{ version }}.tar.gz
-  sha256: a57fbf1e10a6b1c6f2e9b935482ea076cde0c233866b6ebc0794fc07dc99d09d
+  sha256: fe9e0fad316f3833e01f7bce04d6ea1bc1d80c9830e6532c932672e22ecf8e4a
 
 build:
   noarch: python
